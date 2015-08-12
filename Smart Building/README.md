@@ -31,6 +31,7 @@ Then they all are initialised and input is taken from the user to control and se
     2. **Output** The <parameter> of the <appliance_name> is now set to <new_value> . where , parameter is the parameter whose value is being controlled. appliance_name is the name of the appliance whose value is being controlled. new_value is the value of the parameter to be changed.
 
 Appliances used.
+
 Appliances |	Parameters |  Initial state
 ---         |        ---    | ---
 AC		|	temperature	| 23
@@ -41,4 +42,3 @@ Fan 	|	speed		|	0
 Door	|	state		|	OFF
 Door	|	lock		|	Closed
 tube	|	state		| OFF
-
