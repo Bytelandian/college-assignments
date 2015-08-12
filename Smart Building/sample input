@@ -1,0 +1,26 @@
+sense ac 1 temperature
+sense ac 2 humidity
+sense ac 3 state
+control ac 1 temperature 16
+control ac 2 humidity 15
+control ac 3 state 1
+sense ac 1 temperature
+sense ac 2 humidity
+sense ac 3 state
+sense fan 1 speed
+sense fan 2 state
+control fan 1 speed 5
+control fan 2 state 1
+sense fan 1 speed
+sense fan 2 state
+sense tube 1 state
+control tube 1 state 1
+sense tube 1 state
+control tube 1 state 0
+sense tube 1 state
+sense door 1 lock
+sense door 2 state
+control door 1 lock 0
+control door 2 state 1
+sense door 1 lock
+sense door 2 state
