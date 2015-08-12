@@ -1,0 +1,37 @@
+Instructions: 
+
+   We are uploading 6 files contains test cases 1 to 6. The files are contained in the tar 
+   archive "input-assgn5.tar.gz".
+   
+   For example, to run your program on test case 3, run the following command on your terminal:
+  
+   ./a.out <in3
+
+   I am assuming that the name of your executable is "a.out".
+ 
+   The "<" operator in Linux takes the input for a program from the filename specified after it,
+   instead of taking input from the keyboard.
+
+   IMPORTANT: 
+              We will check your programs by giving your output to a ``checker", which will verify
+              the output of your program. Therefore, you should EXACTLY follow the output format described below.
+
+	      We are giving an executable ``checker" with this tar archive. It can be used to check whether the
+              output of your program is correct. Run the ``checker" only when your program output "YES". For "NO"
+	      output no need to use "checker". For example, to check your program on in5, first save the
+              output to a file, say out5.
+            
+              Then, run the following command:
+
+	      ./checker in5 out5
+
+              Note that the input in5 and output out5 must be in the same directory as the checker.
+              The checker will output "Correct" or "Incorrect" based on whether your algorithm gives the correct
+              output or not. 
+
+              Your program outputs will be checked in the above manner. Make sure you adhere to the output
+              format described in the assignment handout. Also, the executable may not run on your computer, as it
+              was compiled on my machine.
+
+
+
