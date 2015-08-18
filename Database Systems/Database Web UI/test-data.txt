@@ -1,0 +1,6 @@
+insert into testtable values (1,'A');
+insert into testtable values (2,'F');
+insert into testtable values (3,'D');
+insert into testtable values (4,'S');
+insert into testtable values (5,'B');
+

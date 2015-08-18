@@ -1,0 +1,7 @@
+create table testtable
+	(
+		id numeric(12,2),
+		name varchar(14),
+		primary key (id)
+	);
+
