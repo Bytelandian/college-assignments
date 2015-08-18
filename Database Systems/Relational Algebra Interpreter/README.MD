@@ -9,6 +9,7 @@ Then the converted query is run on the connected database.
 The nested queries should be in square brackets. The nested queries are recursively parsed and then the whole query is generated.
 
 Queries can be of four types :
+
 1. Select : `Select predicate relation` : This query is converted to Select * from relation where predicate. If the query is nested then the nested query should be in brackets [,] .
 `Select predicate [relation]` : In this first the relation is parsed recursively, and then it is renamed as a temporary variable. and then the query is converted to `Select * from ( relation ) as q0`.
 	
